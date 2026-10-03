@@ -47,11 +47,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          cache: "npm"
-          cache-dependency-path: ./web_dashboard/package-lock.json
+          # Removed cache and cache-dependency-path to bypass the missing package-lock.json error
 
       - name: Install frontend dependencies
-        run: npm ci
+        run: npm install # Changed from npm ci to npm install
 
       - name: Lint Dashboard
         run: npm run lint
