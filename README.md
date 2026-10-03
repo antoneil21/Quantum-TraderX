@@ -158,30 +158,29 @@ The Golden Rule: The robots are not trying to find a million-dollar lottery tick
 The Catch: Sometimes a robot trips and drops a few coins. Sometimes the weather is bad and they can't find any money that week. That is why the Safety Sentinel robot is there—to make sure that even on the worst day ever, the factory never loses more than a few dollars, protecting the main pile so they can try again tomorrow.
 
 
-Quantum-TraderX-v2/
-├── core/                        # The Central Nervous System
-│   ├── commander.py             # Gemini Pro Thinking reasoning engine
-│   ├── engine.py                # High-frequency event loop
-│   └── portfolio_balancer.py    # Cross-asset capital allocation
-├── agents/                      # The 12-Agent Task Force
-│   ├── yield_scout.py           # Hunts highest APY in DeFi/Crypto
-│   ├── risk_analyst.py          # Calculates Kelly Criterion limits
-│   ├── quant_modeler.py         # Real-time mathematical edge detection
-│   └── mev_arbitrage.py         # Sandwich & flash-loan execution
-├── safety_sentinel/             # Guardrails & Auditing
-│   ├── arbiter_consensus.py     # Requires 3 agents to agree before trading
-│   ├── smart_contract_auditor.py# Scans Web3 code for rug-pulls
-│   ├── guardrail_agent.py       # Hard-coded max drawdown limits
-│   └── devops_sentinel.py       # Monitors server latency & API health
-├── data_ingestion/              # Real-time WebSockets
-│   ├── crypto_feeds/            # Binance, Coinbase, DexScreener
-│   └── sports_oracles/          # Sportradar, OddsJam, Polymarket
-├── web_dashboard/               # Next-Gen React UI
-│   ├── src/components/
-│   │   ├── 3d_backtester/       # 3D parameter optimization surface
-│   │   ├── holdings_matrix/     # Real-time PnL tables
-│   │   └── sentiment_gauge/     # Fear & Greed index visualizer
-├── db/                          # Ultra-fast Memory
-│   └── redis_state_manager.py   # Millisecond cache for agent communication
-└── docker-compose.yml           # One-click enterprise deployment
-
+🌌 𝗤𝘂𝗮𝗻𝘁𝘂𝗺-𝗧𝗿𝗮𝗱𝗲𝗿𝗫-𝘃𝟮/[span_0](start_span)[span_0](end_span)
+├── 🧠 𝗰𝗼𝗿𝗲/ # 𝘛𝘩𝘦 𝘊𝘦𝘯𝘵𝘳𝘢𝘭 𝘕𝘦𝘳𝘷𝘰𝘶𝘴 𝘚𝘺𝘴𝘵𝘦𝘮[span_1](start_span)[span_1](end_span)
+│   ├── 🤖 𝕔𝕠𝕞𝕞𝕒𝕟𝕕𝕖𝕣.𝕡𝕪 # 𝘎𝘦𝘮𝘪𝘯𝘪 𝘗𝘳𝘰 𝘛𝘩𝘪𝘯𝘬𝘪𝘯𝘨 𝘳𝘦𝘢𝘴𝘰𝘯𝘪𝘯𝘨 𝘦𝘯𝘨𝘪𝘯𝘦[span_2](start_span)[span_2](end_span)
+│   ├── ⚡ 𝕖𝕟𝕘𝕚𝕟𝕖.𝕡𝕪 # 𝘏𝘪𝘨𝘩-𝘧𝘳𝘦𝘲𝘶𝘦𝘯𝘤𝘺 𝘦𝘷𝘦𝘯𝘵 𝘭𝘰𝘰𝘱[span_3](start_span)[span_3](end_span)
+│   └── ⚖️ 𝕡𝕠𝕣𝕥𝕗𝕠𝕝𝕚𝕠_𝕓𝕒𝕝𝕒𝕟𝕔𝕖𝕣.𝕡𝕪 # 𝘊𝘳𝘰𝘴𝘴-𝘢𝘴𝘴𝘦𝘵 𝘤𝘢𝘱𝘪𝘵𝘢𝘭 𝘢𝘭𝘭𝘰𝘤𝘢𝘵𝘪𝘰𝘯[span_4](start_span)[span_4](end_span)
+├── 🕵️‍♂️ 𝗮𝗴𝗲𝗻𝘁𝘀/ # 𝘛𝘩𝘦 12-𝘈𝘨𝘦𝘯𝘵 𝘛𝘢𝘴𝘬 𝘍𝘰𝘳𝘤𝘦[span_5](start_span)[span_5](end_span)
+│   ├── 💰 𝕪𝕚𝕖𝕝𝕕_𝕤𝕔𝕠𝕦𝕥.𝕡𝕪 # 𝘏𝘶𝘯𝘵𝘴 𝘩𝘪𝘨𝘩𝘦𝘴𝘵 𝘈𝘗𝘠 𝘪𝘯 𝘋𝘦𝘍𝘪/𝘊𝘳𝘺𝘱𝘵𝘰[span_6](start_span)[span_6](end_span)
+│   ├── 📉 𝕣𝕚𝕤𝕜_𝕒𝕟𝕒𝕝𝕪𝕤𝕥.𝕡𝕪 # 𝘊𝘢𝘭𝘤𝘶𝘭𝘢𝘵𝘦𝘴 𝘒𝘦𝘭𝘭𝘺 𝘊𝘳𝘪𝘵𝘦𝘳𝘪𝘰𝘯 𝘭𝘪𝘮𝘪𝘵𝘴[span_7](start_span)[span_7](end_span)
+│   ├── 📐 𝕢𝕦𝕒𝕟𝕥_𝕞𝕠𝕕𝕖𝕝𝕖𝕣.𝕡𝕪 # 𝘙𝘦𝘢𝘭-𝘵𝘪𝘮𝘦 𝘮𝘢𝘵𝘩𝘦𝘮𝘢𝘵𝘪𝘤𝘢𝘭 𝘦𝘥𝘨𝘦 𝘥𝘦𝘵𝘦𝘤𝘵𝘪𝘰𝘯[span_8](start_span)[span_8](end_span)
+│   └── 🥪 𝕞𝕖𝕧_𝕒𝕣𝕓𝕚𝕥𝕣𝕒𝕘𝕖.𝕡𝕪 # 𝘚𝘢𝘯𝘥𝘸𝘪𝘤𝘩 & 𝘧𝘭𝘢𝘴𝘩-𝘭𝘰𝘢𝘯 𝘦𝘹𝘦𝘤𝘶𝘵𝘪𝘰𝘯[span_9](start_span)[span_9](end_span)
+├── 🛡️ 𝘀𝗮𝗳𝗲𝘁𝘆_𝘀𝗲𝗻𝘁𝗶𝗻𝗲𝗹/ # 𝘎𝘶𝘢𝘳𝘥𝘳𝘢𝘪𝘭𝘴 & 𝘈𝘶𝘥𝘪𝘵𝘪𝘯𝘨[span_10](start_span)[span_10](end_span)
+│   ├── 🤝 𝕒𝕣𝕓𝕚𝕥𝕖𝕣_𝕔𝕠𝕟𝕤𝕖𝕟𝕤𝕦𝕤.𝕡𝕪 # 𝘙𝘦𝘲𝘶𝘪𝘳𝘦𝘴 3 𝘢𝘨𝘦𝘯𝘵𝘴 𝘵𝘰 𝘢𝘨𝘳𝘦𝘦 𝘣𝘦𝘧𝘰𝘳𝘦 𝘵𝘳𝘢𝘥𝘪𝘯𝘨[span_11](start_span)[span_11](end_span)
+│   ├── 🔍 𝕤𝕞𝕒𝕣𝕥_𝕔𝕠𝕟𝕥𝕣𝕒𝕔𝕥_𝕒𝕦𝕕𝕚𝕥𝕠𝕣.𝕡𝕪 # 𝘚𝘤𝘢𝘯𝘴 𝘞𝘦𝘣3 𝘤𝘰𝘥𝘦 𝘧𝘰𝘳 𝘳𝘶𝘨-𝘱𝘶𝘭𝘭𝘴[span_12](start_span)[span_12](end_span)
+│   ├── 🛑 𝕘𝕦𝕒𝕣𝕕𝕣𝕒𝕚𝕝_𝕒𝕘𝕖𝕟𝕥.𝕡𝕪 # 𝘏𝘢𝘳𝘥-𝘤𝘰𝘥𝘦𝘥 𝘮𝘢𝘹 𝘥𝘳𝘢𝘸𝘥𝘰𝘸𝘯 𝘭𝘪𝘮𝘪𝘵𝘴[span_13](start_span)[span_13](end_span)
+│   └── 🩺 𝕕𝕖𝕧𝕠𝕡𝕤_𝕤𝕖𝕟𝕥𝕚𝕟𝕖𝕝.𝕡𝕪 # 𝘔𝘰𝘯𝘪𝘵𝘰𝘳𝘴 𝘴𝘦𝘳𝘷𝘦𝘳 𝘭𝘢𝘵𝘦𝘯𝘤𝘺 & 𝘈𝘗𝘐 𝘩𝘦𝘢𝘭𝘵𝘩[span_14](start_span)[span_14](end_span)
+├── 📡 𝗱𝗮𝘁𝗮_𝗶𝗻𝗴𝗲𝘀𝘁𝗶𝗼𝗻/ # 𝘙𝘦𝘢𝘭-𝘵𝘪𝘮𝘦 𝘞𝘦𝘣𝘚𝘰𝘤𝘬𝘦𝘵𝘴[span_15](start_span)[span_15](end_span)
+│   ├── 🪙 𝕔𝕣𝕪𝕡𝕥𝕠_𝕗𝕖𝕖𝕕𝕤/ # 𝘉𝘪𝘯𝘢𝘯𝘤𝘦, 𝘊𝘰𝘪𝘯𝘣𝘢𝘴𝘦, 𝘋𝘦𝘹𝘚𝘤𝘳𝘦𝘦𝘯𝘦𝘳[span_16](start_span)[span_16](end_span)
+│   └── 🏈 𝕤𝕡𝕠𝕣𝕥𝕤_𝕠𝕣𝕒𝕔𝕝𝕖𝕤/ # 𝘚𝘱𝘰𝘳𝘵𝘳𝘢𝘥𝘢𝘳, 𝘖𝘥𝘥𝘴𝘑𝘢𝘮, 𝘗𝘰𝘭𝘺𝘮𝘢𝘳𝘬𝘦𝘵[span_17](start_span)[span_17](end_span)
+├── 🖥️ 𝘄𝗲𝗯_𝗱𝗮𝘀𝗵𝗯𝗼𝗮𝗿𝗱/ # 𝘕𝘦𝘹𝘵-𝘎𝘦𝘯 𝘙𝘦𝘢𝘤𝘵 𝘜𝘐[span_18](start_span)[span_18](end_span)
+│   └── 📁 𝕤𝕣𝕔/𝕔𝕠𝕞𝕡𝕠𝕟𝕖𝕟𝕥𝕤/[span_19](start_span)[span_19](end_span)
+│       ├── 🧊 𝟛𝕕_𝕓𝕒𝕔𝕜𝕥𝕖𝕤𝕥𝕖𝕣/ # 3𝘋 𝘱𝘢𝘳𝘢𝘮𝘦𝘵𝘦𝘳 𝘰𝘱𝘵𝘪𝘮𝘪𝘻𝘢𝘵𝘪𝘰𝘯 𝘴𝘶𝘳𝘧𝘢𝘤𝘦[span_20](start_span)[span_20](end_span)
+│       ├── 📊 𝕙𝕠𝕝𝕕𝕚𝕟𝕘𝕤_𝕞𝕒𝕥𝕣𝕚𝕩/ # 𝘙𝘦𝘢𝘭-𝘵𝘪𝘮𝘦 𝘗𝘯𝘓 𝘵𝘢𝘣𝘭𝘦𝘴[span_21](start_span)[span_21](end_span)
+│       └── 🧭 𝕤𝕖𝕟𝕥𝕚𝕞𝕖𝕟𝕥_𝕘𝕒𝕦𝕘𝕖/ # 𝘍𝘦𝘢𝘳 & 𝘎𝘳𝘦𝘦𝘥 𝘪𝘯𝘥𝘦𝘹 𝘷𝘪𝘴𝘶𝘢𝘭𝘪𝘻𝘦𝘳[span_22](start_span)[span_22](end_span)
+├── 🗄️ 𝗱𝗯/ # 𝘜𝘭𝘵𝘳𝘢-𝘧𝘢𝘴𝘵 𝘔𝘦𝘮𝘰𝘳𝘺[span_23](start_span)[span_23](end_span)
+│   └── 💾 𝕣𝕖𝕕𝕚𝕤_𝕤𝕥𝕒𝕥𝕖_𝕞𝕒𝕟𝕒𝕘𝕖𝕣.𝕡𝕪 # 𝘔𝘪𝘭𝘭𝘪𝘴𝘦𝘤𝘰𝘯𝘥 𝘤𝘢𝘤𝘩𝘦 𝘧𝘰𝘳 𝘢𝘨𝘦𝘯𝘵 𝘤𝘰𝘮𝘮𝘶𝘯𝘪𝘤𝘢𝘵𝘪𝘰𝘯[span_24](start_span)[span_24](end_span)
+└── 🐳 𝕕𝕠𝕔𝕜𝕖𝕣-𝕔𝕠𝕞𝕡𝕠𝕤𝕖.𝕪𝕞𝕝 # 𝘖𝘯𝘦-𝘤𝘭𝘪𝘤𝘬 𝘦𝘯𝘵𝘦𝘳𝘱𝘳𝘪𝘴𝘦 𝘥𝘦𝘱𝘭𝘰𝘺𝘮𝘦𝘯𝘵[span_25](start_span)[span_25](end_span)
