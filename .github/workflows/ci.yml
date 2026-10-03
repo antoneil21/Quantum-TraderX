@@ -31,6 +31,8 @@ jobs:
           flake8 core agents safety_sentinel data_ingestion --count --select=E9,F63,F7,F82 --show-source --statistics
           
       - name: Run Pytest
+        env:
+          PYTHONPATH: . # FIXED: Explicitly set PYTHONPATH to the project root
         run: |
           pytest tests/
 
@@ -47,10 +49,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "18"
-          # Removed cache and cache-dependency-path to bypass the missing package-lock.json error
 
       - name: Install frontend dependencies
-        run: npm install # Changed from npm ci to npm install
+        run: npm install
 
       - name: Lint Dashboard
         run: npm run lint
