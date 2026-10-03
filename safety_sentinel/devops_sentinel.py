@@ -25,7 +25,8 @@ class DevOpsSentinel:
                 "latency_ms": -1.0
             }
 
-    async def check_system_health((self)) -> list:
+    # FIXED: Removed the extra parentheses around (self)
+    async def check_system_health(self) -> list:
         async with aiohttp.ClientSession() as session:
             tasks = [
                 self.ping_endpoint(session, name, url) 
