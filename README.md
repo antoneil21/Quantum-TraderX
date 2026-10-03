@@ -1,6 +1,6 @@
 ![Quantum-TraderX Banner](IMG_20261002_191101_155.jpg)
 
-### Quantum-TraderX v2.0: Project Overview & Blueprint
+### Quantum-TraderX
 
 ---
 
